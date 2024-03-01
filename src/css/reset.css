@@ -13,15 +13,23 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+.gallery {
   margin: 0;
+  margin-top: 32px;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: auto;
+  justify-content: center;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
+  
 }
 
 button {
